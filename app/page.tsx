@@ -90,10 +90,10 @@ export default function HomePage() {
             What we do
           </p>
           <h2 className="mt-3 font-heading text-2xl font-bold uppercase tracking-tight text-white md:text-3xl">
-            Three engines. One mandate: compound growth
+            Two pillars. One mandate: compound growth
           </h2>
         </FadeIn>
-        <div className="mx-auto mt-14 grid max-w-6xl gap-6 md:grid-cols-3">
+        <div className="mx-auto mt-14 grid max-w-6xl gap-6 md:grid-cols-2">
           {coreServices.map((s, i) => (
             <FadeIn key={s.title} delayMs={i * 80}>
               <BracketCard className="h-full">
@@ -175,10 +175,9 @@ export default function HomePage() {
                   This isn&apos;t software. This is infrastructure.
                 </h2>
                 <p className="mt-5 text-base leading-relaxed text-white/55">
-                  OBSIDIAN is AxisOS&apos;s proprietary AI system — the operational engine behind
-                  everything we build and run. It&apos;s not a product. It&apos;s not sold separately.
-                  It&apos;s the reason we move faster, operate smarter, and deliver results that
-                  traditional agencies can&apos;t match. Every client engagement runs on OBSIDIAN.
+                  OBSIDIAN is the system that builds the systems. Every agent we deploy is
+                  custom-built by OBSIDIAN — for that client, for that business, for that problem.
+                  Not a template. Not a subscription. Infrastructure.
                 </p>
               </div>
             </div>

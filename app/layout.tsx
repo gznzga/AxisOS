@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Rajdhani, Share_Tech_Mono } from "next/font/google";
+import { Bebas_Neue, Rajdhani, Share_Tech_Mono } from "next/font/google";
 import "./globals.css";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
@@ -18,6 +18,13 @@ const shareTechMono = Share_Tech_Mono({
   display: "swap",
 });
 
+const bebasNeue = Bebas_Neue({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-bebas-neue",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: {
     default: "AxisOS — AI-Powered Growth Agency",
@@ -33,7 +40,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${rajdhani.variable} ${shareTechMono.variable}`}>
+    <html
+      lang="en"
+      className={`${rajdhani.variable} ${shareTechMono.variable} ${bebasNeue.variable}`}
+    >
       <body className="min-h-screen font-heading">
         <div className="relative z-10 flex min-h-screen flex-col">
           <SiteHeader />

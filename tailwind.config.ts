@@ -20,6 +20,7 @@ const config: Config = {
       fontFamily: {
         heading: ["var(--font-rajdhani)", "system-ui", "sans-serif"],
         mono: ["var(--font-share-tech-mono)", "ui-monospace", "monospace"],
+        bebas: ["var(--font-bebas-neue)", "system-ui", "sans-serif"],
       },
       boxShadow: {
         "glow-sm": "0 0 20px rgba(0, 229, 204, 0.25)",

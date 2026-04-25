@@ -12,16 +12,16 @@ export const metadata: Metadata = {
 
 const pillars = [
   {
-    title: "Strategy + Execution",
-    body: "Most agencies execute without thinking. Most consultants think without building. AxisOS does both — we diagnose the problem and build the system that solves it.",
+    title: "Agents, Not Advice",
+    body: "We don't just tell you what to build. We build it, deploy it, and make sure it runs. Every agent is custom, every deployment is ours to own.",
   },
   {
     title: "Speed Without Sacrifice",
-    body: "We move at the pace of AI. What takes traditional agencies months, we deliver in days. Without cutting corners.",
+    body: "Most clients are live in 14 days. We don't cut corners — we just don't waste time.",
   },
   {
-    title: "Systems That Outlast Us",
-    body: "Everything we build is designed to run independently. We don't create dependency. We build infrastructure.",
+    title: "Built to Run Without You",
+    body: "Every system we build runs independently. No dependency. No babysitting. Infrastructure that compounds over time.",
   },
 ];
 
@@ -48,15 +48,15 @@ export default function AboutPage() {
     <div className="bg-black px-4 pb-24 pt-16 md:px-6 md:pb-32 md:pt-20">
       <PageHeader
         eyebrow="About"
-        title="We don't consult from the sidelines. We embed, we build, and we deploy."
+        title="We don't consult from the sidelines. We build the systems that run your business — and advise the ones figuring out where to start."
       />
 
       <FadeIn className="mx-auto mt-16 max-w-3xl">
         <p className="text-center text-base leading-relaxed text-white/60 md:text-lg">
-          AxisOS was built by a student founder at LMU who got tired of watching businesses leave
-          money on the table because they didn&apos;t have the right systems. We built AxisOS
-          itself using the exact tools we deploy for clients — and went from zero to a fully
-          operational agency in two weeks. That&apos;s not a pitch. That&apos;s proof.
+          AxisOS was built by a student founder at LMU who got tired of watching businesses lose
+          leads, lose time, and lose revenue to systems that weren&apos;t built for them. We built
+          AxisOS on the same AI infrastructure we deploy for every client — and went from zero to a
+          functioning AI systems company in two weeks. That&apos;s not a pitch. That&apos;s proof.
         </p>
       </FadeIn>
 
