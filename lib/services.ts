@@ -2,7 +2,7 @@ export const coreServices = [
   {
     title: "AI Agents",
     description:
-      "Custom-built autonomous agents that automate the most critical functions of your business. Built by OBSIDIAN. Deployed in 14 days.",
+      "Custom-built autonomous agents that automate the most critical functions of your business. Deployed in 14 days.",
     icon: "systems" as const,
   },
   {

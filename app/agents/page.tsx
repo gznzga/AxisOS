@@ -6,7 +6,7 @@ import { AgentOrb } from "@/components/agents/agent-orb";
 
 export const metadata: Metadata = {
   title: "Agents",
-  description: "Meet the AxisOS agents — built by OBSIDIAN.",
+  description: "Meet the AxisOS agents.",
 };
 
 type Agent = {
@@ -64,7 +64,7 @@ export default function AgentsPage() {
           Meet the Agents.
         </h1>
         <p className="mt-5 text-base leading-relaxed text-white/55 md:text-lg">
-          Built by OBSIDIAN. Deployed for your business.
+          Deployed for your business.
         </p>
       </FadeIn>
 
@@ -123,7 +123,30 @@ export default function AgentsPage() {
                   </div>
 
                   <div className="mt-8 border-t border-white/10 pt-6">
-                    <BookCallButton label="Book a Call →" />
+                    <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-axis-blue">
+                      Pricing
+                    </p>
+                    <div className="mt-4 space-y-2 text-sm text-white/65">
+                      <div className="flex items-baseline justify-between gap-4">
+                        <span className="font-mono text-[10px] uppercase tracking-widest text-white/40">
+                          Build
+                        </span>
+                        <span className="text-right font-heading font-bold text-white">
+                          $25,000 one-time
+                        </span>
+                      </div>
+                      <div className="flex items-baseline justify-between gap-4">
+                        <span className="font-mono text-[10px] uppercase tracking-widest text-white/40">
+                          Retainer
+                        </span>
+                        <span className="text-right font-heading font-bold text-white">
+                          $1,500 / mo
+                        </span>
+                      </div>
+                    </div>
+                    <div className="mt-6">
+                      <BookCallButton label="Book a Call →" />
+                    </div>
                   </div>
                 </div>
               </div>

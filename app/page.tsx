@@ -168,15 +168,15 @@ export default function HomePage() {
             <div className="rounded-sm bg-gradient-to-br from-axis-turquoise/25 via-axis-blue/15 to-axis-turquoise/20 p-px">
               <div className="rounded-sm bg-[#030303] px-6 py-12 md:px-12 md:py-14">
                 <p className="font-mono text-[10px] uppercase tracking-[0.4em] text-axis-turquoise">
-                  POWERED BY OBSIDIAN
+                  BUILT AS INFRASTRUCTURE
                 </p>
                 <h2 className="mt-4 font-heading text-2xl font-bold uppercase tracking-tight text-white md:text-3xl">
                   This isn&apos;t software. This is infrastructure.
                 </h2>
                 <p className="mt-5 text-base leading-relaxed text-white/55">
-                  OBSIDIAN is the system that builds the systems. Every agent we deploy is
-                  custom-built by OBSIDIAN — for that client, for that business, for that problem.
-                  Not a template. Not a subscription. Infrastructure.
+                  AxisOS builds the systems that run the business. Every agent we deploy is
+                  custom-built for that client, for that operation, for that problem. Not a
+                  template. Not a subscription. Infrastructure.
                 </p>
               </div>
             </div>

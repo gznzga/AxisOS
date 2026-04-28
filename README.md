@@ -52,5 +52,5 @@ Then swap or compose with `components/bracket-card.tsx`, `components/book-call-b
 | `lib/site.ts` | Global strings and booking link |
 | `lib/services.ts` | Shared service copy |
 
-The parent folder still contains `index.html` (legacy OBSIDIAN dashboard) — this site lives entirely under `axisos/`.
+The parent folder still contains `index.html` (legacy dashboard) — this site lives entirely under `axisos/`.
 # AxisOS

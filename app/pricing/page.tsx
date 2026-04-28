@@ -22,11 +22,10 @@ type Tier = {
 const tiers: Tier[] = [
   {
     name: "AI Agents",
-    price: "Custom",
-    subtext: "Every agent is scoped and priced to your specific build.",
+    price: "$25,000 build + $1,500 / mo",
+    subtext: "One-time build. Ongoing retainer to operate, maintain, and improve your agent.",
     features: [
       "Custom agent built for your business",
-      "OBSIDIAN-powered deployment",
       "Full integration with your existing stack",
       "14-day deployment timeline",
       "Dedicated build support",

@@ -29,9 +29,9 @@ export default function ServicesPage() {
                 AI Agents
               </h2>
               <p className="mt-4 text-sm leading-relaxed text-white/55">
-                Custom-built autonomous agents, deployed by OBSIDIAN, designed to automate the most
-                critical functions of your business. Each agent is built for your specific operation
-                — not a template, not a subscription. A permanent system that runs without you.
+                Custom-built autonomous agents designed to automate the most critical functions of
+                your business. Each agent is built for your specific operation — not a template, not
+                a subscription. A permanent system that runs without you.
               </p>
               <div className="mt-8">
                 <Link
