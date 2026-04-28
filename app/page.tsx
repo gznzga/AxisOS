@@ -31,7 +31,6 @@ const steps = [
 
 const stats = [
   { value: "$120K+", label: "Client Revenue Generated" },
-  { value: "46.46x", label: "Peak Campaign ROAS" },
   { value: "150,000+", label: "Leads Nurtured" },
 ];
 
